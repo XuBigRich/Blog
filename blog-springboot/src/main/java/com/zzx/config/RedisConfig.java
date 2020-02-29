@@ -6,6 +6,10 @@ package com.zzx.config;
  * @blame mqpearth
  */
 public class RedisConfig {
+    /**
+     *
+     */
+    public static final String REDIS_VIRTUAL_HOST="blog";
 
     /**
      * redis中存放 最新博客 数量 的最大值
