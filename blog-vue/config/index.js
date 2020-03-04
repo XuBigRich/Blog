@@ -19,7 +19,7 @@ module.exports = {
         }
       },
       '/api': {
-        target: 'http://127.0.0.1:8001/', //
+        target: 'http://127.0.0.1:8888/', //
         changeOrigin: true, //
         pathRewrite: {
           // 路径重写，
@@ -27,7 +27,7 @@ module.exports = {
         }
       },
       '/img': {     //图片资源默认以8001端口发起请求
-        target: 'http://127.0.0.1:8001/', //
+        target: 'http://127.0.0.1:8888/', //
         changeOrigin: true, //
         pathRewrite: {
           // 路径重写，
